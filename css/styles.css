@@ -13,7 +13,8 @@ body {
   text-decoration: none;
 }
 
-.modal-button {
+.modal-button,
+.button {
   cursor: pointer;
 }
 
@@ -173,6 +174,93 @@ body {
 
 /* FOOTER */
 
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-alt {
+  color: #ffffff;
+}
+
+.footer-adress-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contact-list-tel,
+.footer-contact-list-email {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-list-tel:hover,
+.footer-contact-list-email:hover,
+.footer-adress-link:hover,
+.footer-contact-list-tel:focus,
+.footer-contact-list-email:focus,
+.footer-adress-link:focus {
+  color: #2196f3;
+}
+
+/* PORTFOLIO - COLLECTION */
+
+.collection-section {
+  text-align: center;
+}
+
+.collection-filters-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.current-button {
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.collection-filters-button:hover,
+.collection-filters-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.collection-list-card {
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.collection-list-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.collection-list-card-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 /* :root {
   --main-text-color: #212121;
   --semi-text-color: #757575;

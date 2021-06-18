@@ -20,221 +20,244 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo" lang="en"
-          ><span class="first-part-logo">Web</span>Studio</a
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="menu">
+        <a href="./index.html" class="logo link" lang="en"
+          ><span class="logo-accent">Web</span>Studio</a
         >
-        <ul>
-          <li>
-            <a href="./index.html" class="nav-link">Студия</a>
+        <ul class="menu-list list">
+          <li class="menu-list-item">
+            <a class="menu-list-link link" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html" class="nav-link">Портфолио</a>
+          <li class="menu-list-item">
+            <a class="menu-list-link link current-link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
-            <a href="#" class="nav-link">Контакты</a>
+          <li class="menu-list-item">
+            <a class="menu-list-link link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com" lang="en" class="contact-link">info@devstudio.com</a>
+      <ul class="contact-list list">
+        <li class="contact-list-item">
+          <a class="contact-list-email link" href="mailto:info@devstudio.com" lang="en"
+            >info@devstudio.com</a
+          >
         </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+        <li class="contact-list-item">
+          <a class="contact-list-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
+
     <main>
-      <ul>
-        <li>
-          <button type="button" class="filters-button">Все</button>
-        </li>
-        <li>
-          <button type="button" class="filters-button">Веб-сайты</button>
-        </li>
-        <li>
-          <button type="button" class="filters-button">Приложения</button>
-        </li>
-        <li>
-          <button type="button" class="filters-button">Дизайн</button>
-        </li>
-        <li>
-          <button type="button" class="filters-button">Маркетинг</button>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#" class="collections-link">
-            <figure class="collections-card">
-              <img
-                src="./images/portfolio/technocriak.jpg"
-                alt="Постер сайта Технокряк"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h3 class="collections-card-title">Технокряк</h3>
-                <p class="collections-card-text">Веб-сайт</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="collections-link">
-            <figure class="collections-card">
-              <img
-                src="./images/portfolio/newOrlean.jpg"
-                alt="Постер New Orlean vs Golden Star"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h3 class="collections-card-title">
-                  Постер <span lang="en">New Orlean vs Golden Star</span>
-                </h3>
-                <p class="collections-card-text">Дизайн</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="collections-link">
-            <figure class="collections-card">
-              <img
-                src="./images/portfolio/seafood.jpg"
-                alt="Постер приложения Ресторан Seafood"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h3 class="collections-card-title">Ресторан <span lang="en">Seafood</span></h3>
-                <p class="collections-card-text">Приложение</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="collections-link">
-            <figure class="collections-card">
-              <img
-                src="./images/portfolio/prime.jpg"
-                alt="Постер Проект Prime"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h3 class="collections-card-title">Проект <span lang="en">Prime</span></h3>
-                <p class="collections-card-text">Маркетинг</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="collections-link">
-            <figure class="collections-card">
-              <img
-                src="./images/portfolio/boxes.jpg"
-                alt="Постер приложения Проект Boxes"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h3 class="collections-card-title">Проект <span lang="en">Boxes</span></h3>
-                <p class="collections-card-text">Приложение</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="collections-link">
-            <figure class="collections-card">
-              <img
-                src="./images/portfolio/borders.jpg"
-                alt="Постер сайта Inspiration has no Borders"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h3 class="collections-card-title" lang="en">Inspiration has no Borders</h3>
-                <p class="collections-card-text">Веб-сайт</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="collections-link">
-            <figure class="collections-card">
-              <img
-                src="./images/portfolio/limitedEdition.jpg"
-                alt="Постер Издание Limited Edition"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h3 class="collections-card-title">
-                  Издание <span lang="en">Limited Edition</span>
-                </h3>
-                <p class="collections-card-text">Дизайн</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="collections-link">
-            <figure class="collections-card">
-              <img
-                src="./images/portfolio/lab.jpg"
-                alt="Постер Проект LAB"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h3 class="collections-card-title">Проект <span lang="en">LAB</span></h3>
-                <p class="collections-card-text">Маркетинг</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="collections-link">
-            <figure class="collections-card">
-              <img
-                src="./images/portfolio/growingBusiness.jpg"
-                alt="Постер приложения Growing Business"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h3 class="collections-card-title" lang="en">Growing Business</h3>
-                <p class="collections-card-text">Приложение</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-      </ul>
+      <!-- COLLECTION -->
+      <section class="collection-section">
+        <h2 hidden class="collection-section-title">Портфолио</h2>
+        <ul class="collection-filters list">
+          <li class="collection-filters-item">
+            <button type="button" class="collection-filters-button button current-button">
+              Все
+            </button>
+          </li>
+          <li class="collection-filters-item">
+            <button type="button" class="collection-filters-button button">Веб-сайты</button>
+          </li>
+          <li class="collection-filters-item">
+            <button type="button" class="collection-filters-button button">Приложения</button>
+          </li>
+          <li class="collection-filters-item">
+            <button type="button" class="collection-filters-button button">Дизайн</button>
+          </li>
+          <li class="collection-filters-item">
+            <button type="button" class="collection-filters-button button">Маркетинг</button>
+          </li>
+        </ul>
+        <ul class="collection-list list">
+          <li class="collection-list-item">
+            <a href="#" class="collection-list-link link">
+              <figure class="collection-list-card">
+                <img
+                  class="collection-list-card-img"
+                  src="./images/portfolio/technocriak.jpg"
+                  alt="Постер сайта Технокряк"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="collection-list-card-text-container">
+                  <h3 class="collection-list-card-title">Технокряк</h3>
+                  <p class="collection-list-card-text">Веб-сайт</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="collection-list-item">
+            <a href="#" class="collection-list-link link">
+              <figure class="collection-list-card">
+                <img
+                  class="collection-list-card-img"
+                  src="./images/portfolio/newOrlean.jpg"
+                  alt="Постер New Orlean vs Golden Star"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="collection-list-card-text-container">
+                  <h3 class="collection-list-card-title">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h3>
+                  <p class="collection-list-card-text">Дизайн</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="collection-list-item">
+            <a href="#" class="collection-list-link link">
+              <figure class="collection-list-card">
+                <img
+                  class="collection-list-card-img"
+                  src="./images/portfolio/seafood.jpg"
+                  alt="Постер приложения Ресторан Seafood"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="collection-list-card-text-container">
+                  <h3 class="collection-list-card-title">
+                    Ресторан <span lang="en">Seafood</span>
+                  </h3>
+                  <p class="collection-list-card-text">Приложение</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="collection-list-item">
+            <a href="#" class="collection-list-link link">
+              <figure class="collection-list-card">
+                <img
+                  class="collection-list-card-img"
+                  src="./images/portfolio/prime.jpg"
+                  alt="Постер Проект Prime"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="collection-list-card-text-container">
+                  <h3 class="collection-list-card-title">Проект <span lang="en">Prime</span></h3>
+                  <p class="collection-list-card-text">Маркетинг</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="collection-list-item">
+            <a href="#" class="collection-list-link link">
+              <figure class="collection-list-card">
+                <img
+                  class="collection-list-card-img"
+                  src="./images/portfolio/boxes.jpg"
+                  alt="Постер приложения Проект Boxes"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="collection-list-card-text-container">
+                  <h3 class="collection-list-card-title">Проект <span lang="en">Boxes</span></h3>
+                  <p class="collection-list-card-text">Приложение</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="collection-list-item">
+            <a href="#" class="collection-list-link link">
+              <figure class="collection-list-card">
+                <img
+                  class="collection-list-card-img"
+                  src="./images/portfolio/borders.jpg"
+                  alt="Постер сайта Inspiration has no Borders"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="collection-list-card-text-container">
+                  <h3 class="collection-list-card-title" lang="en">Inspiration has no Borders</h3>
+                  <p class="collection-list-card-text">Веб-сайт</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="collection-list-item">
+            <a href="#" class="collection-list-link link">
+              <figure class="collection-list-card">
+                <img
+                  class="collection-list-card-img"
+                  src="./images/portfolio/limitedEdition.jpg"
+                  alt="Постер Издание Limited Edition"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="collection-list-card-text-container">
+                  <h3 class="collection-list-card-title">
+                    Издание <span lang="en">Limited Edition</span>
+                  </h3>
+                  <p class="collection-list-card-text">Дизайн</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="collection-list-item">
+            <a href="#" class="collection-list-link link">
+              <figure class="collection-list-card">
+                <img
+                  class="collection-list-card-img"
+                  src="./images/portfolio/lab.jpg"
+                  alt="Постер Проект LAB"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="collection-list-card-text-container">
+                  <h3 class="collection-list-card-title">Проект <span lang="en">LAB</span></h3>
+                  <p class="collection-list-card-text">Маркетинг</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="collection-list-item">
+            <a href="#" class="collection-list-link link">
+              <figure class="collection-list-card">
+                <img
+                  class="collection-list-card-img"
+                  src="./images/portfolio/growingBusiness.jpg"
+                  alt="Постер приложения Growing Business"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="collection-list-card-text-container">
+                  <h3 class="collection-list-card-title" lang="en">Growing Business</h3>
+                  <p class="collection-list-card-text">Приложение</p>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer class="section-footer">
-      <a href="./index.html" class="logo logo-alt" lang="en"
-        ><span class="first-part-logo">Web</span>Studio</a
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a class="logo logo-alt link" href="./index.html" lang="en"
+        ><span class="logo-accent">Web</span>Studio</a
       >
-      <address>
+      <address class="footer-adress">
         <a
+          class="footer-adress-link link"
           href="https://goo.gl/maps/bzyYuuLkhP41vMup8"
           target="_blank"
           rel="noopener noreferrer"
-          class="section-footer-adress"
           >г. Киев, пр-т Леси Украинки, 26</a
         >
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="section-footer-contact-link" lang="en"
+        <ul class="footer-contact-list list">
+          <li class="footer-contact-list-item">
+            <a class="footer-contact-list-tel link" href="mailto:info@devstudio.com" lang="en"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class="section-footer-contact-link">+38 096 111 11 11</a>
+          <li class="footer-contacts-list-item">
+            <a class="footer-contact-list-email link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
