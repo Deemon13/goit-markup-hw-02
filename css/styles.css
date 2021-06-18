@@ -11,11 +11,16 @@ body {
 
 .link {
   text-decoration: none;
+  color: #212121;
 }
 
 .modal-button,
 .button {
   cursor: pointer;
+}
+
+.button {
+  color: #212121;
 }
 
 /* HEADER */
@@ -38,7 +43,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
 }
 
 .current-link {
@@ -108,7 +112,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 
 .features-section-list-text {
@@ -129,7 +132,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 /* TEAM */
@@ -144,7 +146,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .team-section-list-card {
@@ -165,7 +166,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .team-section-list-card-text {
@@ -220,7 +220,6 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 
   background-color: #f5f4fa;
   border-radius: 4px;
